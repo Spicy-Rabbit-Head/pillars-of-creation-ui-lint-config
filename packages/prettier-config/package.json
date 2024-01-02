@@ -1,0 +1,22 @@
+{
+  "name": "@pillars-of-creation-ui/prettier-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Zikui Zhao",
+  "keywords": [
+    "pillars-of-creation-ui",
+    "prettier",
+    "prettier-config"
+  ],
+  "main": "index.cjs",
+  "exports": {
+    ".": "./index.cjs",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
+}

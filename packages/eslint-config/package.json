@@ -1,0 +1,38 @@
+{
+  "name": "@pillars-of-creation-ui/eslint-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Zikui Zhao",
+  "keywords": [
+    "pillars-of-creation-ui",
+    "eslint",
+    "eslint-config"
+  ],
+  "main": "index.cjs",
+  "exports": {
+    ".": "./index.cjs",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-config-standard-jsx": "^11.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsonc": "^2.10.0",
+    "eslint-plugin-markdown": "^3.0.1",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-vue": "^9.19.2",
+    "eslint-plugin-yml": "^1.10.0",
+    "jsonc-eslint-parser": "^2.4.0",
+    "vue-eslint-parser": "^9.3.2",
+    "yaml-eslint-parser": "^1.2.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=8"
+  }
+}
