@@ -1,6 +1,6 @@
 module.exports = {
-    // 每行代码的最大长度限制为 100
-    printWidth: 100,
+    // 每行代码的最大长度限制为 120
+    printWidth: 120,
     // 尽可能地省略箭头函数的参数括号
     arrowParens: 'avoid',
     // 在对象字面量的括号之间添加空格
