@@ -509,7 +509,7 @@ module.exports = ({
                     'error',
                     {
                         // 强制要求属性中的大括号
-                        props: 'always',
+                        props: 'never',
                         // 强制要求子元素中的大括号
                         children: 'always',
                         // 强制要求属性元素中的值为大括号
